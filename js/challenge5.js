@@ -11,7 +11,10 @@ $(function(){
       $("#image").css("background-image","url('"+$(this).attr("src")+"')")
       $('#image').html($(this).attr("alt"))
   })
-
+  $("img").blur(function(){
+      $("#image").css("background-image","url('"+$(this).attr("src")+"')")
+      $('#image').html($(this).attr("alt"))
+  })
 
 
 })
