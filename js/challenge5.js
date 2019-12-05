@@ -1,7 +1,7 @@
 $(function(){
   $("img").mouseover(function(){
       $("#image").css("background-image","url('"+$(this).attr("src")+"')");
-      $("image").html($(this).attr("alt"));
+      $("#image").html($(this).attr("alt"));
   })
   $("img").mouseout(function(){
     $("#image").css("background-image","");
